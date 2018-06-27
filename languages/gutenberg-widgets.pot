@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: assets/src/widget-area/index.js:11
+msgid "Display a widget area"
+msgstr ""
+
+#: assets/src/widget-area/index.js:18
+msgid "widget"
+msgstr ""
+
+#: assets/src/widget-area/index.js:19
+msgid "widget area"
+msgstr ""
+
+#: assets/src/widget-area/index.js:20
+msgid "sidebar"
+msgstr ""
+
+#: assets/src/widget-area/index.js:36
+msgid "Choose..."
+msgstr ""
+
+#: assets/src/widget-area/index.js:47
+msgid "Widget Area"
+msgstr ""
+
+#: assets/src/widget-area/index.js:48
+msgid "Choose a widget area from the dropdown below."
+msgstr ""
+
+#: assets/src/widget-area/index.js:57
+msgid "Edit widgets"
+msgstr ""
