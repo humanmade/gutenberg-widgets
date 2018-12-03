@@ -25,7 +25,7 @@ function enqueue_editor_assets() {
 	$path = 'assets/dist/main.js';
 	$src  = plugins_url( $path, $plugin_file_path );
 
-	if ( ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) || ( defined( 'HM_GUTENBERG_WIDGETS_DEBUG' ) && HM_GUTENBERG_WIDGETS_DEBUG ) ) {
+	if ( ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) && ( defined( 'HM_GUTENBERG_WIDGETS_DEBUG' ) && HM_GUTENBERG_WIDGETS_DEBUG ) ) {
 		$src = str_replace( content_url(), 'https://localhost:8884', $src );
 		$ver = null;
 	} else {
